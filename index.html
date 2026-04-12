@@ -1,232 +1,329 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laroa Studio | House of Comfort</title>
-    <meta name="description" content="Premium pieces designed to elevate your home with timeless elegance.">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <div class="logo">Laroa Studio</div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#rooms">Categories</a></li>
-                    <li><a href="#projects">Top Selling</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="btn-book">Book Now</button>
-        </header>
+    <meta name="description" content="Premium pieces designed to elevate your home with timeless elegance." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-title-container">
-                <h1 class="hero-title">House of Comfort</h1>
-                <p class="hero-subtext">Premium pieces designed to elevate your home with timeless elegance.</p>
+    <!-- ═══ HEADER ═══════════════════════════════════════ -->
+    <header class="site-header">
+      <div class="logo">Laroa Studio</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#rooms">Categories</a></li>
+          <li><a href="#projects">Top Selling</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="btn-pill">Customer Support</button>
+    </header>
+
+    <!-- ═══ HERO ══════════════════════════════════════════ -->
+    <section class="hero">
+
+      <!-- Giant full-width title -->
+      <h1 class="hero-title">HOUSE OF COMFORT</h1>
+
+      <!-- 3-column hero body -->
+      <div class="hero-body">
+
+        <!-- COL 1 · Subtext + Tall portrait card -->
+        <div class="hero-col hero-col--left">
+          <p class="hero-subtext">
+            Premium pieces designed to<br>
+            elevate your home with<br>
+            timeless elegance.
+          </p>
+          <div class="hero-left-art">
+            <div class="wireframe-shadow"></div>
+            <div class="hero-framed-img portrait-img">
+              <img
+                src="https://images.unsplash.com/photo-1544474560-d34322bf2021?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Interior Design" />
             </div>
-
-            <div class="hero-visuals">
-                <!-- Main Chair (Backgroundless PNG) -->
-                <div class="hero-chair">
-                    <img src="chair.jpg" alt="House of Comfort Chair">
-                </div>
-
-                <!-- Floating Cards -->
-                <div class="hero-card card-left">
-                    <img src="https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=crop&w=800&q=80" alt="Interior Design">
-                </div>
-                <div class="hero-card card-top-right">
-                    <img src="https://images.unsplash.com/photo-1615873968403-89e0686292a9?auto=format&fit=crop&w=800&q=80" alt="Furniture Detail">
-                </div>
-
-                <!-- Trust Badge -->
-                <div class="hero-trust-badge">
-                    <span class="trust-count">150+</span>
-                    <span class="trust-text">Clients Trusting Our Expertise In Contracting</span>
-                    <div class="trust-footer">
-                        <div class="avatars">
-                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Client">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Client">
-                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=100&q=80" alt="Client">
-                        </div>
-                        <div class="rating">
-                            <span>4.5</span>
-                            <span class="stars">★★★★★</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Stats Bar -->
-            <div class="stats-bar">
-                <div class="stat-item">
-                    <span class="stat-num">7</span>
-                    <span class="stat-label">Year Experience</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-num">2</span>
-                    <span class="stat-label">Opened in the country</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-num">10k+</span>
-                    <span class="stat-label">Furniture sold</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-num">260+</span>
-                    <span class="stat-label">Variant Furniture</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Why Choosing Us -->
-        <section class="section why-us-section">
-            <div class="why-us-grid">
-                <div class="why-content">
-                    <h2 class="section-title" style="text-align: left;">Why Choosing Us</h2>
-                    <p class="why-lead">We combine functional design with high-end aesthetics to create living spaces that feel like home but look like art.</p>
-                    <div class="why-details">
-                        <p>Our pieces are designed for both comfort and longevity. Every detail is meticulously crafted to ensure that your home remains a sanctuary for years to come.</p>
-                        <p>From sustainable sourcing to expert craftsmanship, we prioritize the elements that make furniture more than just a place to sit—it's a part of your life story.</p>
-                    </div>
-                    <button class="btn-read">Read More</button>
-                </div>
-                <div class="why-images">
-                    <div class="why-img-stack">
-                        <div class="why-img-main">
-                            <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=1200&q=80" alt="Premium Interior Design">
-                        </div>
-                        <div class="why-img-sub">
-                            <img src="https://images.unsplash.com/photo-1616486341352-7edecff293d4?auto=format&fit=crop&w=800&q=80" alt="Furniture Crafting">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Shop By Room -->
-        <section id="rooms" class="section">
-            <div class="section-header">
-                <h2 class="section-title">Shop By Room</h2>
-                <p class="section-desc">E. Ac Consequat Eget Fusce Nulla Viverra. Nulla Nibh Massa Mattis In. Tristique A Tellus Placerat Ac Eget. Enim Nunc Augue Fringilla Amet.</p>
-            </div>
-
-            <div class="rooms-rows-container">
-                <!-- Living Room -->
-                <div class="room-row">
-                    <div class="room-visual">
-                        <div class="room-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80" alt="Living Room">
-                        </div>
-                    </div>
-                    <div class="room-content">
-                        <h3>Living Room</h3>
-                        <p>E. Ac Consequat Eget Fusce Nulla Viverra. Nulla Nibh Massa Mattis In. Tristique A Tellus Placerat Ac Eget. Enim Nunc Augue Fringilla Amet. Parturient Ornare Blandit Fames Auctor Augue.</p>
-                        <a href="#" class="see-more">see more →</a>
-                    </div>
-                </div>
-
-                <!-- Dining Room -->
-                <div class="room-row reverse">
-                    <div class="room-visual">
-                        <div class="room-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80" alt="Dining Room">
-                        </div>
-                    </div>
-                    <div class="room-content">
-                        <h3>Dining Room</h3>
-                        <p>E. Ac Consequat Eget Fusce Nulla Viverra. Nulla Nibh Massa Mattis In. Tristique A Tellus Placerat Ac Eget. Enim Nunc Augue Fringilla Amet. Parturient Ornare Blandit Fames Auctor Augue.</p>
-                        <a href="#" class="see-more">see more →</a>
-                    </div>
-                </div>
-
-                <!-- Bedroom -->
-                <div class="room-row">
-                    <div class="room-visual">
-                        <div class="room-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Bedroom">
-                        </div>
-                    </div>
-                    <div class="room-content">
-                        <h3>Bedroom</h3>
-                        <p>E. Ac Consequat Eget Fusce Nulla Viverra. Nulla Nibh Massa Mattis In. Tristique A Tellus Placerat Ac Eget. Enim Nunc Augue Fringilla Amet. Parturient Ornare Blandit Fames Auctor Augue.</p>
-                        <a href="#" class="see-more">see more →</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Explore Our Projects -->
-        <section id="projects" class="section">
-            <div class="section-header" style="max-width: 100%; display: flex; justify-content: space-between; align-items: flex-end;">
-                <div>
-                    <h2 class="section-title">Explore Our Projects</h2>
-                    <p class="section-desc" style="max-width: 600px;">Here you can see some of our latest projects. We update our gallery continuously with our best interior designs.</p>
-                </div>
-                <button class="btn-read" style="margin-bottom: 20px;">Shop Collections</button>
-            </div>
-
-            <div class="projects-grid">
-                <div class="project-main">
-                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" alt="Project 1">
-                </div>
-                <div class="project-side">
-                    <div class="project-side-card">
-                         <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80" alt="Project 2">
-                    </div>
-                    <div class="project-side-card">
-                         <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?auto=format&fit=crop&w=800&q=80" alt="Project 3">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <div class="footer-wrap" id="contact">
-            <footer class="footer-card">
-                <div class="footer-brand">
-                    <h2>Laroa Studio</h2>
-                    <p>Elevating your living experience through intentional design and premium furniture pieces.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-icon">f</a>
-                        <a href="#" class="social-icon">t</a>
-                        <a href="#" class="social-icon">i</a>
-                    </div>
-                </div>
-                <div class="footer-col">
-                    <h4>Site Built</h4>
-                    <ul>
-                        <li>Home</li>
-                        <li>Kitchen</li>
-                        <li>Warehouses</li>
-                        <li>Walk In Closet</li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Contact Us</h4>
-                    <ul>
-                        <li>Contact Us</li>
-                        <li>Find Us</li>
-                        <li>Price Proposal</li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Information</h4>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Site Map</li>
-                        <li>Privacy Policy</li>
-                    </ul>
-                </div>
-            </footer>
-            <div class="footer-bottom">
-                Non Copyrighted © 2022 Design and upload by rich technologies
-            </div>
+          </div>
         </div>
+
+        <!-- COL 2 · Chair (transparent bg) -->
+        <div class="hero-col hero-col--center">
+          <div class="chair-float">
+            <img class="chair-img" src="backgroundless_chair.png" alt="Comfort Chair" />
+          </div>
+        </div>
+
+        <!-- COL 3 · Landscape card + Trust badge -->
+        <div class="hero-col hero-col--right">
+          <div class="hero-right-art">
+            <div class="hero-framed-img landscape-img">
+              <img
+                src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=95"
+                alt="Premium Sofa" />
+            </div>
+            
+            <div class="trust-badge-framed">
+              <div class="trust-header">
+                <div class="trust-num">150+</div>
+                <div class="trust-text">Clients Trusting Our<br>Expertise</div>
+              </div>
+              <div class="trust-footer">
+                <div class="avatars">
+                  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&q=80" alt="Client" />
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=80" alt="Client" />
+                  <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=80&q=80" alt="Client" />
+                </div>
+                <div class="rating">
+                  <span class="rating-num">4.5</span>
+                  <span class="stars">★★★★★</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /hero-body -->
+
+      <!-- Stats pill bar -->
+      <div class="stats-bar">
+        <div class="stat-item">
+          <span class="stat-num">7</span>
+          <span class="stat-label">Year Experience</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat-item">
+          <span class="stat-num">2</span>
+          <span class="stat-label">Opened in the country</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat-item">
+          <span class="stat-num">10k+</span>
+          <span class="stat-label">Furniture sold</span>
+        </div>
+        <div class="stat-div"></div>
+        <div class="stat-item">
+          <span class="stat-num">260+</span>
+          <span class="stat-label">Variant Furniture</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ═══ WHY CHOOSING US ═══════════════════════════════ -->
+    <section class="why-section">
+      <div class="why-grid">
+
+        <div class="why-text">
+          <h2 class="sec-title">Why Choosing Us</h2>
+          <p class="why-lead">
+            We combine functional design with high-end aesthetics to create
+            living spaces that feel like home but look like art.
+          </p>
+          <div class="why-body">
+            <p>
+              Our pieces are designed for both comfort and longevity. Every
+              detail is meticulously crafted to ensure that your home remains
+              a sanctuary for years to come.
+            </p>
+            <p>
+              From sustainable sourcing to expert craftsmanship, we prioritize
+              the elements that make furniture more than just a place to
+              sit—it&rsquo;s a part of your life story.
+            </p>
+          </div>
+          <button class="btn-pill btn-pill--dark">Read More</button>
+        </div>
+
+        <div class="why-imgs">
+          <div class="why-img-a">
+            <img
+              src="https://images.unsplash.com/photo-1598928636135-d146006ff4be?auto=format&fit=crop&w=1200&q=95"
+              alt="Interior Design" />
+          </div>
+          <div class="why-img-b">
+            <img
+              src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=95"
+              alt="Dining Space" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══ SHOP BY ROOM ═══════════════════════════════════ -->
+    <section id="rooms" class="rooms-section">
+
+      <div class="rooms-header">
+        <h2 class="sec-title center">Shop By Room</h2>
+        <p class="sec-desc">
+          E. Ac Consequat Eget Fusce Nulla Viverra. Nulla Nibh Massa Mattis
+          In. Tristique A Tellus Placerat Ac Eget. Enim Nunc Augue Fringilla Amet.
+        </p>
+        <span class="plus-icon">+</span>
+      </div>
+
+      <div class="rooms-list">
+
+        <!-- Living Room – image left -->
+        <div class="room-row">
+          <div class="room-visual">
+            <div class="room-offset"></div>
+            <div class="room-img">
+              <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=95" alt="Living Room" />
+            </div>
+          </div>
+          <div class="room-copy">
+            <h3>Living Room</h3>
+            <p>E. Ac Consequat Eget Fusce Nulla Viverra. Nulla Nibh Massa Mattis In. Tristique A Tellus Placerat Ac Eget. Enim Nunc Augue Fringilla Amet. Parturient Ornare Blandit Fames Auctor Augue.</p>
+            <a href="#" class="link-arrow">see more →</a>
+          </div>
+        </div>
+
+        <!-- Dining Room – image right -->
+        <div class="room-row room-row--flip">
+          <div class="room-copy">
+            <h3>Dinning Room</h3>
+            <p>E. Ac Consequat Eget Fusce Nulla Viverra. Nulla Nibh Massa Mattis In. Tristique A Tellus Placerat Ac Eget. Enim Nunc Augue Fringilla Amet. Parturient Ornare Blandit Fames Auctor Augue.</p>
+            <a href="#" class="link-arrow">see more →</a>
+          </div>
+          <div class="room-visual">
+            <div class="room-offset room-offset--right"></div>
+            <div class="room-img">
+              <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1400&q=95" alt="Dining Room" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Bedroom – image left -->
+        <div class="room-row">
+          <div class="room-visual">
+            <div class="room-offset"></div>
+            <div class="room-img">
+              <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=95" alt="Bedroom" />
+            </div>
+          </div>
+          <div class="room-copy">
+            <h3>Bedroom</h3>
+            <p>E. Ac Consequat Eget Fusce Nulla Viverra. Nulla Nibh Massa Mattis In. Tristique A Tellus Placerat Ac Eget. Enim Nunc Augue Fringilla Amet. Parturient Ornare Blandit Fames Auctor Augue.</p>
+            <a href="#" class="link-arrow">see more →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══ EXPLORE OUR PROJECTS ═══════════════════════════ -->
+    <section id="projects" class="projects-section">
+
+      <div class="projects-top">
+        <div>
+          <h2 class="sec-title">Explore Our Projects</h2>
+          <p class="sec-desc left-align">
+            Here you can see some of our latest projects. We update our
+            gallery continuously with our best interior designs.
+          </p>
+        </div>
+        <button class="btn-pill btn-pill--dark">Shop Collections</button>
+      </div>
+
+      <div class="projects-grid">
+        <div class="proj-main">
+          <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1400&q=95" alt="Walk in Closet" />
+          <div class="proj-label">WALK IN CLOSET FANTASTEN MOJ.&amp;GET</div>
+        </div>
+        <div class="proj-stack">
+          <div class="proj-card">
+            <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=900&q=95" alt="Project 2" />
+            <div class="proj-label">WALK IN CLOSET FANTASTEN MOJ.&amp;GET</div>
+          </div>
+          <div class="proj-card">
+            <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=900&q=95" alt="Project 3" />
+            <div class="proj-label">EXPLORE DESIGN</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-nav">
+        <button class="dot dot--on" aria-label="Slide 1"></button>
+        <button class="dot" aria-label="Slide 2"></button>
+      </div>
+
+    </section>
+
+    <!-- ═══ FOOTER ═══════════════════════════════════════ -->
+    <div class="footer-wrap" id="contact">
+      <footer class="footer-card">
+
+        <div class="footer-brand">
+          <h2>Laroa Studio</h2>
+          <p>Elevating your living experience through intentional design and premium furniture pieces.</p>
+          <div class="socials">
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Twitter">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Site Built</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Kitchen</a></li>
+            <li><a href="#">Warehouses</a></li>
+            <li><a href="#">Walk In Closet</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Find Us</a></li>
+            <li><a href="#">Price Proposal</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>IF</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Working</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+        </div>
+
+      </footer>
+      <div class="footer-bottom">
+        Non Copyrighted &copy; 2022 Design and upload by rich technologies
+      </div>
+    <!-- WebSetGlob Branding Badge -->
+    <div class="websetglob-badge" id="brandingBadge">
+      <div class="badge-header">
+        <img src="https://res.cloudinary.com/dwfm8qeoz/image/upload/q_auto/f_auto/v1775983625/WSGLOGO_rethlj.svg" alt="WebSetGlob Logo" class="badge-logo" />
+        <h4>WebSetGlob</h4>
+      </div>
+      <p>Crafting Modern Web Experiences</p>
+      <span>This website is a demo project created by WebSetGlob.</span>
+      <a href="https://www.websetglob.com/" target="_blank" class="badge-btn">Visit Us</a>
     </div>
-</body>
+
+  </body>
 </html>
